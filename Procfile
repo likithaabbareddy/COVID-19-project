@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wsgi --log-file -
+web: voila --port=$PORT --no-browser dashboard.ipynb
